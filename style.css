@@ -1,0 +1,178 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+header,
+nav,
+section,
+article,
+p,
+aside,
+footer,
+div {
+  
+  padding: 20px;
+/*  margin: 5px;*/
+/*  border: 0.1em dashed #fff;*/
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+/*  margin: 2em;*/
+  padding: 0;
+/*  background-color: #fff;*/
+  font-size: 1em;
+}
+
+header {
+
+}
+
+nav { margin-top: 100px;
+    background-color: #5b4366;
+    color: white;
+    padding: 10px;
+/*  background-color: #85B2E5;*/
+    
+}
+
+section {
+/*  background-color: #e8e6df;*/
+}
+
+article {
+ background-color:#e8e6df;
+}
+
+p {
+/*  background-color: #8CAE68;*/
+    clear: both;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+}
+
+aside {
+/*  background-color: #F46036;*/
+}
+
+footer {
+/*  background-color: #777589;*/
+  clear: both;
+     padding-top: 0px;
+    padding-bottom: 0px;    
+}
+
+img {
+/*  background-color: #3772FF;*/
+}
+
+
+
+.left {
+    float: left;
+    width: 65%;
+}
+
+.right {
+    float: right;
+    width: 35%
+}
+
+.accomodate-pull-quote{
+    float: right;
+    width: 64%;
+}
+
+.pull-quote {
+    float: left;
+    width: 32%
+}
+
+.logo {
+    max-width: 175px;
+    max-height: 175px;
+    float: left;
+    margin-bottom: 10px
+
+}
+
+.banner {
+    max-width: 100%;
+}
+
+.spike {
+    max-width: 100%;
+}
+
+.float_right {
+    float: right;
+}
+
+.float_left {
+    float:left;
+}
+
+.article_header {
+    background-color:#e8e6df;
+}
+
+.pur_pur {
+    background-color: #5b4366;
+    color: #e8e6df;
+    max-width: 47%;
+    width: 47%;
+    padding: 10px;
+}
+
+.pur_pur2 {
+    background-color: #5b4366;
+    color: #e8e6df;
+    
+    padding: 10px;
+}
+.menu {
+  font-size: 16pt;
+    font-weight: bold;
+    color: #e8e6df;
+}
+
+.header2 {
+background-color:#e8e6df;
+padding-bottom: 0;
+    padding-top: 0;
+    text-align: center
+}
+
+.vote_img {
+    max-width: 30%;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.hashtags {
+    color: #5b4366;
+}
+
+.bottom {
+    background-color: #5b4366;
+    color: #e8e6df;
+   
+}
+
+.space {
+    padding: 20px;
+    padding-bottom: 10px;
+    
+}
+
+a {
+     color: #e8e6df;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #689B69;
